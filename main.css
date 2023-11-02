@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playpen Sans', cursive;
+}
+
+body{
+    background-color: #b38059;
+    padding-top: 100px;
+}
+
+main{
+    display: block;
+    width: 500px;
+    max-height: max-content;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 10px 10px 10px  #5a402c93;
+}
+
+main h1{
+    text-align: center;
+    size: 40px;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 640px;
+    width: 100%;
+}
+
+form input{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+form #Fbutton{
+    background-color:#2cb158;
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#Fbutton:hover {
+    background-color: rgba(56, 126, 230, 0.5);
+}
+
+.lista{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lista li{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.lista .concluida{
+    text-decoration: line-through;
+    color: rgb(190, 2, 2);
+}
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
